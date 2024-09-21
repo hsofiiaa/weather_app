@@ -7,7 +7,7 @@ cache:
 
 # Перший етап - установка залежностей
 install_dependencies:
-  stage: install
+  stage: build  # Перейменовано з 'install' на 'build'
   script:
     - npm ci  # Використовуємо npm ci для чистої установки залежностей
   artifacts:
@@ -15,7 +15,7 @@ install_dependencies:
       - node_modules/
 
 # Другий етап - збірка проекту
-build:
+build_project:
   stage: build
   script:
     - npm run build  # Збірка проекту за допомогою Vite
