@@ -9,7 +9,7 @@ cache:
 install_dependencies:
   stage: build  # Перейменовано з 'install' на 'build'
   script:
-    - npm ci  # Використовуємо npm ci для чистої установки залежностей
+    - npm install  # Використовуємо npm ci для чистої установки залежностей
   artifacts:
     paths:
       - node_modules/
