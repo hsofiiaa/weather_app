@@ -1,0 +1,89 @@
+.g-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 72px;
+  padding: 32px 0;
+  box-sizing: border-box;
+  background-color: rgba(248, 249, 250, 0.7);
+
+  box-shadow: 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+
+  .sidebar-logo {
+    display: block;
+    margin-bottom: 32px;
+    color: #212529;
+  }
+
+  .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    .nav-item {
+
+    }
+
+    .nav-link {
+      width: 100%;
+      display: block;
+      padding: 20px 8px;
+      box-sizing: border-box;
+      transition: all 0.5s;
+      border-bottom: 1px solid #212529;
+      color: #212529;
+
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+
+      &.active,
+      &:hover {
+        color: #fff;
+        fill: #fff;
+        background-color: rgba(#2e58bc, 0.6);
+        border-bottom-color: rgba(#2e58bc, 0.6);
+      }
+    }
+  }
+
+  .sub-menu {
+    position: absolute;
+    right: -277px;
+    top: 0;
+    bottom: 0;
+    padding: 32px 0;
+
+    background-color: rgba(248, 249, 250, 0.7);
+  }
+
+  .nav-sub-menu {
+    margin: 0;
+    padding: 0 16px;
+    list-style: none;
+    box-sizing: border-box;
+
+    .menu-item {
+      display: flex;
+      justify-content: left;
+
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+
+      .label {
+        cursor: pointer;
+      }
+
+      input {
+        margin-right: 16px;
+      }
+    }
+  }
+}

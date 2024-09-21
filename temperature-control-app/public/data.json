@@ -1,0 +1,51 @@
+{
+  "meta":{
+    "city": "Kyiv",
+    "cloud": 46,
+    "humidity": 46,
+    "feelslike": 20
+  },
+
+  "forecast": [
+    {
+      "weekDay": "Sunday",
+      "month": "September",
+      "day": 15,
+      "forecastIcon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+      "forecastText": "Partly cloudy",
+      "maxTemp": 23.2
+    },
+    {
+      "weekDay": "Monday",
+      "month": "September",
+      "day": 16,
+      "forecastIcon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+      "forecastText": "Partly cloudy",
+      "maxTemp": 21.5
+    },
+    {
+      "weekDay": "Tuesday",
+      "month": "September",
+      "day": 17,
+      "forecastIcon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+      "forecastText": "Partly cloudy",
+      "maxTemp": 23.2
+    },
+    {
+      "weekDay": "Wednesday",
+      "month": "September",
+      "day": 18,
+      "forecastIcon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+      "forecastText": "Partly cloudy",
+      "maxTemp": 23.2
+    },
+    {
+      "weekDay": "Thursday",
+      "month": "September",
+      "day": 19,
+      "forecastIcon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+      "forecastText": "Partly cloudy",
+      "maxTemp": 23.2
+    }
+  ]
+}
